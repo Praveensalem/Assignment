@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #1d0269;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #1d0269, #240083);
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .logo .icon {
+    margin-right: 8px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .logo .text {
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .nav-links li a i {
+    font-size: 10px;
+    margin-left: 4px;
+  }
+  
+  .nav-links li a.active {
+    color: #ff4dd2;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+  }
+  
+  .cart {
+    position: relative;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #4d6aff;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 2px 5px;
+  }
+  
